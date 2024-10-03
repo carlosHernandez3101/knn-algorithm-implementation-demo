@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\knn-algorithm-implementation-demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|c:\\knn-algorithm-implementation-demo\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|c:\\knn-algorithm-implementation-demo\\knn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|solutionrelative:knn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|c:\\knn-algorithm-implementation-demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB1532D-40DB-4768-9B38-229F6BA082DD}|knn-algorithm-implementation-demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KNN.cs",
+              "DocumentMoniker": "C:\\knn-algorithm-implementation-demo\\KNN.cs",
+              "RelativeDocumentMoniker": "KNN.cs",
+              "ToolTip": "C:\\knn-algorithm-implementation-demo\\KNN.cs",
+              "RelativeToolTip": "KNN.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:19:30.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\knn-algorithm-implementation-demo\\Point.cs",
+              "RelativeDocumentMoniker": "Point.cs",
+              "ToolTip": "C:\\knn-algorithm-implementation-demo\\Point.cs",
+              "RelativeToolTip": "Point.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T16:12:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\knn-algorithm-implementation-demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\knn-algorithm-implementation-demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:37:45.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

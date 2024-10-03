@@ -1,0 +1,14 @@
+C:\knn-algorithm-implementation-demo\bin\Debug\net8.0\knn-algorithm-implementation-demo.exe
+C:\knn-algorithm-implementation-demo\bin\Debug\net8.0\knn-algorithm-implementation-demo.deps.json
+C:\knn-algorithm-implementation-demo\bin\Debug\net8.0\knn-algorithm-implementation-demo.runtimeconfig.json
+C:\knn-algorithm-implementation-demo\bin\Debug\net8.0\knn-algorithm-implementation-demo.dll
+C:\knn-algorithm-implementation-demo\bin\Debug\net8.0\knn-algorithm-implementation-demo.pdb
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.AssemblyInfoInputs.cache
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.AssemblyInfo.cs
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.csproj.CoreCompileInputs.cache
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.dll
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\refint\knn-algorithm-implementation-demo.dll
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.pdb
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\knn-algorithm-implementation-demo.genruntimeconfig.cache
+C:\knn-algorithm-implementation-demo\obj\Debug\net8.0\ref\knn-algorithm-implementation-demo.dll
