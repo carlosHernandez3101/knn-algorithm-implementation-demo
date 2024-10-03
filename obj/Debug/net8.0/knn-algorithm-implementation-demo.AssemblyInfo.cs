@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("knn-algorithm-implementation-demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648b5b085da23a76a77e6c1633ed637da1477a5b")]
 [assembly: System.Reflection.AssemblyProductAttribute("knn-algorithm-implementation-demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("knn-algorithm-implementation-demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

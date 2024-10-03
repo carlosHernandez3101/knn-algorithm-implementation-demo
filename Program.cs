@@ -13,6 +13,9 @@ public class Program
         // Cargar y dividir el dataset (70% entrenamiento, 30% prueba)
         knn.LoadAndSplitDatasetCSV(filePath, 0.7);
 
+        //Normalizamos los datos del dataset
+        //knn.NormalizeData();
+
         // Evaluar el modelo sobre el testData
         var (accuracy, confusionMatrix) = knn.EvaluateTestData();
 

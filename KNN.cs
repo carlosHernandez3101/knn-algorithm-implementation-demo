@@ -57,6 +57,41 @@ namespace knn_algorithm_implementation_demo
             testData = dataset.Skip(trainSize).ToList();
         }
 
+        // Método para normalizar los datos numéricos
+        public void NormalizeData()
+        {
+            // Unimos los datos de entrenamiento y prueba para normalizar todos los datos a la vez
+            var allData = trainingData.Concat(testData).ToList();
+
+            // Número de características
+            int numFeatures = allData[0].features.Count;
+
+            // Encontrar los valores mínimos y máximos para cada característica
+            double[] minValues = new double[numFeatures];
+            double[] maxValues = new double[numFeatures];
+
+            // Inicializamos minValues y maxValues con los primeros valores de los datos
+            for (int i = 0; i < numFeatures; i++)
+            {
+                minValues[i] = allData.Min(p => p.features[i]);
+                maxValues[i] = allData.Max(p => p.features[i]);
+            }
+
+            // Aplicar la normalización Min-Max a cada conjunto de características
+            foreach (var point in allData)
+            {
+                for (int i = 0; i < point.features.Count; i++)
+                {
+                    double minValue = minValues[i];
+                    double maxValue = maxValues[i];
+                    point.features[i] = (point.features[i] - minValue) / (maxValue - minValue);
+                }
+            }
+
+            // Separar nuevamente en conjuntos de entrenamiento y prueba
+            trainingData = allData.Take(trainingData.Count).ToList();
+            testData = allData.Skip(trainingData.Count).ToList();
+        }
 
         public string Predict(List<double> newFeatures)
         {
@@ -67,7 +102,7 @@ namespace knn_algorithm_implementation_demo
                 .Take(K);
 
             var predictedLabel = distances
-                .GroupBy(p => p.Point.Label)
+                .GroupBy(p => p.Point.label)
                 .OrderByDescending(g => g.Count())
                 .First().Key;
 
@@ -82,8 +117,8 @@ namespace knn_algorithm_implementation_demo
             foreach (var point in testData)
             {
                 // Predicción para cada punto en testData
-                string predictedLabel = Predict(point.Features);
-                string actualLabel = point.Label;
+                string predictedLabel = Predict(point.features);
+                string actualLabel = point.label;
 
                 // Verificar si la predicción es correcta
                 if (predictedLabel == actualLabel)
